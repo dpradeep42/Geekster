@@ -14,13 +14,12 @@ public class LargestOfThree {
         System.out.print("Enter third number : ");
         int c = sc.nextInt();
 
-        System.out.println("The largest of three numbers is : " + max(a,b,c));
+        System.out.println("The largest of three numbers is : " + max(a, b, c));
         sc.close();
 
     }
 
     public static int max(int a, int b, int c){
-        int largest = (a > b ? a : b) > c ? (a > b ? a : b) : c;
-        return largest;
+        return (a > b ? a : b) > c ? (a > b ? a : b) : c;
     }
 }
