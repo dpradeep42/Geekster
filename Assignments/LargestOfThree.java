@@ -1,4 +1,4 @@
-package FirstHand_Oct_26;
+package Assignments;
 
 import java.io.IOException;
 import java.util.Scanner;

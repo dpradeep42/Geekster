@@ -1,4 +1,4 @@
-package FirstHand_Oct_26;
+package Assignments;
 
 public class HelloWorld {
     public static void main(String[] args) {
