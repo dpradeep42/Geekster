@@ -20,5 +20,6 @@ public class NumbersAtoB {
                 System.out.println(i);
             }
         }
+        sc.close();
     }
 }
