@@ -23,5 +23,6 @@ public class Conditional_If_Else {
 
         //Ternary Operator
         System.out.println(a > b ? a : b + "is greater");
+        sc.close();
     }
 }
