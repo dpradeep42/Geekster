@@ -9,7 +9,7 @@ public class PrimeNumber {
         System.out.print("Enter a number : ");
         int num = sc.nextInt();
         int count = 0;
-        for(int i = 2; i < num ; i++){
+        for(int i = 1; i < num ; i++){
             if(num % i == 0){
                 count++;
                 if(count > 2){
