@@ -9,6 +9,12 @@ public class Class_2 {
         System.out.print("Enter your Name : ");
         String myInput = sc.nextLine();
         
-        System.out.println(myInput);
+        System.out.println("You've entered " + myInput);
+
+        System.out.print("Enter your Age : ");
+        int age = sc.nextInt();
+
+        System.out.println("Your age is " + age);
+        System.out.println(age + "is your age");
     }
 }
