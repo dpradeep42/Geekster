@@ -15,6 +15,8 @@ public class Class_2 {
         int age = sc.nextInt();
 
         System.out.println("Your age is " + age);
-        System.out.println(age + "is your age");
+        System.out.println(age + " is your age");
+
+        sc.close();
     }
 }
