@@ -18,5 +18,7 @@ public class Class_2_task_1 {
         else{
             System.out.println("Both are Equal");
         }
+
+        sc.close();
     }
 }

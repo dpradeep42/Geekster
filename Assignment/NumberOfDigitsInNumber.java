@@ -15,5 +15,6 @@ public class NumberOfDigitsInNumber {
             num /= 10;
         }
         System.out.println("Number of Digits in " + temp + " is " + count);
+        sc.close();
     }
 }
