@@ -64,6 +64,17 @@ public class DataTypes {
 
         // String
         String S = "Hello World"; //Variables are case sensitive
-        System.out.println(S);
+        System.out.println(S + "\n\n");
+
+        //Practice
+        System.out.println("--------------------PRactice--------------------");
+        char ch = 'a';
+        System.out.println(ch);
+        System.out.println(ch + ch);
+        ch = 4;
+        System.out.println(ch);
+        System.out.println(ch);
+        ch = 'A';
+        System.out.println((int)ch);
     }
 }
