@@ -71,7 +71,7 @@ public class DataTypes {
         char ch = 'a';
         System.out.println(ch);
         System.out.println(ch + ch);
-        ch = 4;
+        ch = 3;
         System.out.println(ch);
         System.out.println(ch);
         ch = 'A';
