@@ -21,10 +21,11 @@ public class Arrays {
         int[] intArray4 = new int[20]; // Declaring and allocating memory at a time
 
         int[] intArray5 = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-        System.out.println(intArray5);
+        //System.out.println(Arrays.toString(intArray5));
         // Declaring array literal
 
         int[] intArray6 = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        //System.out.println(Arrays.toString(intArray6));
         // Declaring array literal
     }
 }
