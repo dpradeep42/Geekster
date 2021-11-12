@@ -1,4 +1,4 @@
-package Assignment;
+package PreCourseAssignment;
 
 import java.util.Scanner;
 

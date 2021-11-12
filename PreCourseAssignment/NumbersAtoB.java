@@ -1,8 +1,8 @@
-package Assignment;
+package PreCourseAssignment;
 
 import java.util.Scanner;
 
-public class EvenNumbersInRange {
+public class NumbersAtoB {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -13,15 +13,11 @@ public class EvenNumbersInRange {
 
         if (b > a) {
             for (int i = a; i <= b; i++) {
-                if (i % 2 == 0) {
-                    System.out.println(i);
-                }
+                System.out.println(i);
             }
         } else {
             for (int i = a; i >= b; i--) {
-                if (i % 2 == 0) {
-                    System.out.println(i);
-                }
+                System.out.println(i);
             }
         }
         sc.close();

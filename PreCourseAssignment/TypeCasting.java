@@ -1,4 +1,4 @@
-package Assignment;
+package PreCourseAssignment;
 
 public class TypeCasting {
     public static void main(String[] args) {

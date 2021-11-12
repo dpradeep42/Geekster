@@ -1,4 +1,4 @@
-package Assignment;
+package PreCourseAssignment;
 
 public class HelloWorld {
     public static void main(String[] args) {
