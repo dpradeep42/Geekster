@@ -13,7 +13,7 @@ public class Conditional_If_Else {
 
         if(a > b){
             System.out.println("A is Greater");
-        }
+        }   
         else if(b > a){
             System.out.println("B is Greater");
         }
