@@ -23,8 +23,6 @@ public class Solution {
         da = 0.5 * basic;
         pf = 0.11 * basic;
 
-        // Condition to compute the
-        // allowance for the person
         if (grade == 'A') {
             allowance = 1700.0;
         } else if (grade == 'B') {
@@ -34,7 +32,6 @@ public class Solution {
         }
         double gross;
 
-        // Calculate gross salary
         gross = Math.round(basic + hra + da + allowance - pf);
 
         return (int) gross;
