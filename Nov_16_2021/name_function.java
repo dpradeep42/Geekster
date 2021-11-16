@@ -10,8 +10,8 @@ public class name_function {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String firstName = sc.next();
-        String lastName = sc.next();
+        String firstName = sc.nextLine();
+        String lastName = sc.nextLine();
         System.out.println("Your full name is " + addNames(firstName, lastName));
         sc.close();
     }
