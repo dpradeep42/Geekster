@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class ThreeMethodsForMaxValue {
 
-    static int max(int a, int b){
-        return a>b?a:b;
+    static int max(int a, int b) {
+        return a > b ? a : b;
     }
 
-    static int max(int a, int b, int c){
-        return (a > b ? a : b) > c ? (a > b ? a : b) : c;
+    static int max(int a, int b, int c) {
+        return max(a, b) > c ? (max(a, b)) : c;
     }
 
-    static int max(int a, int b, int c, int d){
-        return ((a > b ? a : b) > c ? (a > b ? a : b) : c) > d ? ((a > b ? a : b) > c ? (a > b ? a : b) : c) : d;
+    static int max(int a, int b, int c, int d) {
+        return max(a, b, c) > d ? max(a, b, c) : d;
     }
 
     public static void main(String[] args) {
@@ -33,7 +33,8 @@ public class ThreeMethodsForMaxValue {
 
         System.out.println("Max of " + int1 + " and " + int2 + " is " + max(int1, int2));
         System.out.println("Max of " + int1 + ", " + int2 + " and " + int3 + " is " + max(int1, int2, int3));
-        System.out.println("Max of " + int1 + ", " + int2 + ", " + int3 + " and " + int4 + " is " + max(int1, int2, int3, int4));
+        System.out.println(
+                "Max of " + int1 + ", " + int2 + ", " + int3 + " and " + int4 + " is " + max(int1, int2, int3, int4));
 
         sc.close();
     }
