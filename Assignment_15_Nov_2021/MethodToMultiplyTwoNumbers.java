@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class MethodToMultiplyTwoNumbers {
 
-    static int product(int a, int b){
+    static int product(int a, int b) {
         return a * b;
     }
-    
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

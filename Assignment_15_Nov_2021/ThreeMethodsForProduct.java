@@ -54,6 +54,7 @@ public class ThreeMethodsForProduct {
             System.out.print("Do you want to continue (Y/N) : ");
             ch = sc.next().charAt(0);
         } while (ch == 'Y' || ch == 'y');
+        
         sc.close();
     }
 }

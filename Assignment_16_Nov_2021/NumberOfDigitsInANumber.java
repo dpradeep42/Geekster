@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class NumberOfDigitsInANumber {
 
-    static int numberOfDigits(int num){
+    static int numberOfDigits(int num) {
         return Integer.toString(num).length();
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
