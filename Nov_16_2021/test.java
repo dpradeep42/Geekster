@@ -7,5 +7,6 @@ public class test {
         int a = new Scanner(System.in).nextInt(), b = 01234;
         System.out.println(a);
         System.out.println(b);
+        
     }
 }
