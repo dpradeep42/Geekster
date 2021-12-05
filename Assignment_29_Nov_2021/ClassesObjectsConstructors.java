@@ -1,7 +1,6 @@
 package Assignment_29_Nov_2021;
 
 import java.util.Arrays;
-import java.util.Formatter.BigDecimalLayoutForm;
 
 class Vehicle {
     String name;
